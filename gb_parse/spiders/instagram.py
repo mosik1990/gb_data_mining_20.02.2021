@@ -89,3 +89,4 @@ class InstTag:
     def get_post_items(self):
         for edge in self.hashtag["edge_hashtag_to_media"]["edges"]:
             yield InstaPost(date_parse=dt.datetime.utcnow(), data=edge["node"])
+

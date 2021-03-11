@@ -39,3 +39,4 @@ class GbImageDownloadPipeline(ImagesPipeline):
         if results:
             item["photos"] = [itm[1] for itm in results]
         return item
+
