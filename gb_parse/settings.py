@@ -13,9 +13,9 @@ SPIDER_MODULES = ["gb_parse.spiders"]
 NEWSPIDER_MODULE = "gb_parse.spiders"
 
 LOG_ENABLE = True
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:85.0) Gecko/20100101 Firefox/85.0"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -91,4 +91,3 @@ AUTOTHROTTLE_DEBUG = True
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
